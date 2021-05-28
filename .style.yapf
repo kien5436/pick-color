@@ -1,0 +1,9 @@
+[style]
+based_on_style = pep8
+indent_width = 2
+spaces_before_comment = 0
+split_before_logical_operator = true
+allow_split_before_dict_value = false
+allow_split_before_default_or_named_assigns = true
+BLANK_LINE_BEFORE_NESTED_CLASS_OR_DEF = true
+BLANK_LINES_AROUND_TOP_LEVEL_DEFINITION = false
