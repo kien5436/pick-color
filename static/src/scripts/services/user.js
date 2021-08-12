@@ -4,7 +4,7 @@ export async function getUserInfo() {
 
   const user = JSON.parse(getCookie('user'));
 
-  if (!user.id) return {};
+  if (!user || !user.id) return {};
 
   const response = await fetch('/api/users/' + user.id);
   return await response.json();
